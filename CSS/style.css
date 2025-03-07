@@ -1,0 +1,20 @@
+/*way2 to link fonts hear we are importing */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.heading{
+    font-family: "Roboto", sans-serif;
+    line-height: 0;
+    text-align: center;
+    height: 10px;
+    margin: 200px;
+}
+.para{
+    color: blueviolet;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight:900;
+    font-style: italic;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+   
+}

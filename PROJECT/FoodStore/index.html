@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodStore Project</title>
+    <!--Google fonts installation-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--Tailwind Css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!--<div class="2xl:container mx-auto bg-red-700">
+        <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-blue-100">
+            
+      <div class="bg-yellow-300">Card1 </div>
+      <div class="bg-slate-600">Card2</div>
+      <div class="bg-violet-800">Card3</div>
+    </div>
+
+</div>
+</div>
+-->
+    <!--Style guide
+heading:class="font-[Poppins] text-[22px] leading-[26px] text-black"
+paragraph:class="font-[Poppins] text-[16px] leading-[24px] text-[#7b8794]"
+button:
+-->
+    <!--Section-1:Follow us-->
+    <section class="py-10">
+        <div class="2xl:container mx-auto">
+            <div class="w=[90%] mx-auto grid grid-cols-1">
+                <div class="flex flex-row justify-center items-center gap-4">
+                    <p>Follow Us</p>
+                </div>
+            </div>
+            <div class="w=[90%] mx-auto grid grid-cols-1">
+                <div class="flex flex-row justify-center items-center gap-4">
+                    <div class="bg-yellow-300 h-10 w-10 rounded-full flex justify-center items-center">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="1em" height="1em" {...props}>
+                            <defs>
+                                <mask id="ipTTwitter0">
+                                    <path fill="#555" stroke="#fff" strokelinejoin="round" strokewidth="4"
+                                        d="M5 35.762c1.929 1.067 15.891 9.115 25.82 2.912s9.38-16.89 9.38-21.788c.9-1.884 2.8-2.842 2.8-7.942q-2.799 2.585-5.565 1.76q-2.709-4.131-7.456-3.655c-4.746.477-6.482 5.133-5.971 11.158c-7.318 3.7-13.056-2.683-16.014-7.503c-.988 3.796-1.94 8.354 0 13.395q1.942 5.042 9.331 8.526Q9.835 36.685 5 35.762Z">
+                                    </path>
+                                </mask>
+                            </defs>
+                            <path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTTwitter0)"></path>
+                        </svg>
+
+
+                    </div>
+                    <div class="bg-yellow-300 h-10 w-10 rounded-full flex justify-center items-center">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="1em" height="1em" {...props}>
+                            <defs>
+                                <mask id="ipTTwitter0">
+                                    <path fill="#555" stroke="#fff" strokeLinejoin="round" strokeWidth="4"
+                                        d="M5 35.762c1.929 1.067 15.891 9.115 25.82 2.912s9.38-16.89 9.38-21.788c.9-1.884 2.8-2.842 2.8-7.942q-2.799 2.585-5.565 1.76q-2.709-4.131-7.456-3.655c-4.746.477-6.482 5.133-5.971 11.158c-7.318 3.7-13.056-2.683-16.014-7.503c-.988 3.796-1.94 8.354 0 13.395q1.942 5.042 9.331 8.526Q9.835 36.685 5 35.762Z">
+                                    </path>
+                                </mask>
+                            </defs>
+                            <path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTTwitter0)"></path>
+                        </svg>
+
+
+                    </div>
+                    <div class="bg-yellow-300 h-10 w-10 rounded-full flex justify-center items-center">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="1em" height="1em" {...props}>
+                            <defs>
+                                <mask id="ipTTwitter0">
+                                    <path fill="#555" stroke="#fff" strokeLinejoin="round" strokeWidth="4"
+                                        d="M5 35.762c1.929 1.067 15.891 9.115 25.82 2.912s9.38-16.89 9.38-21.788c.9-1.884 2.8-2.842 2.8-7.942q-2.799 2.585-5.565 1.76q-2.709-4.131-7.456-3.655c-4.746.477-6.482 5.133-5.971 11.158c-7.318 3.7-13.056-2.683-16.014-7.503c-.988 3.796-1.94 8.354 0 13.395q1.942 5.042 9.331 8.526Q9.835 36.685 5 35.762Z">
+                                    </path>
+                                </mask>
+                            </defs>
+                            <path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTTwitter0)"></path>
+                        </svg>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section-2:Why Choose us-->
+    <section class="py-10 bg-[#f8fbfe]">
+        <div class="2xl:container mx-auto">
+            <div class="w-[90%] mx-auto grid grid-cols-1">
+                <div class="py-5">
+                    <h2 class="font-[Poppins] text-[28px] leading-[34px] text-black font-bold">Why Choose us?</h2>
+                    <p class="font-[Poppins] text-[16px] leading-[24px] text-[#7b8794]">we can use both original recipes
+                        and classic versions of famous food items.</p>
+                </div>
+
+            </div>
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!--Card-->
+                <div
+                    class="bg-white border border-[#ebeff7] rounded-lg p-5 flex flex-col items-center justify-center text-center gap-2">
+                    <img src="https://ik.imagekit.io/jn6tbw6g3m/food-serve.webp" alt="card image">
+                    <h4 class="font-[Poppins] text-[22px] leading-[26px] text-black">Food Service</h4>
+                    <p class="font-[Poppins] text-[16px] leading-[24px] text-[#7b8794]">Experience fine dining at the
+                        comfort of your home.
+                        All our orders are carefully packed and arranged to give
+                        you the nothing less than perfect.
+                    </p>
+                </div>
+                <div
+                    class="bg-white border border-[#ebeff7] rounded-lg p-5 flex flex-col items-center justify-center text-center gap-2">
+                    <img src="https://ik.imagekit.io/jn6tbw6g3m/fruits-img.webp" alt="card image">
+                    <h4 class="font-[Poppins] text-[22px] leading-[26px] text-black">Fresh Food</h4>
+                    <p class="font-[Poppins] text-[16px] leading-[24px] text-[#7b8794]">The Fresh Food group provides
+                        fresh-cut fruits and vegetables directly picked from our partner farms and farm houses so that
+                        you always get them tree to plate.
+
+                    </p>
+                </div>
+                <div
+                    class="bg-white border border-[#ebeff7] rounded-lg p-5 flex flex-col items-center justify-center text-center gap-2">
+                    <img src="https://ik.imagekit.io/jn6tbw6g3m/offers-img.webp" alt="card image">
+                    <h4 class="font-[Poppins] text-[22px] leading-[26px] text-black">Best Offers</h4>
+                    <p class="font-[Poppins] text-[16px] leading-[24px] text-[#7b8794]">Food Coupons & Offers upto 50%
+                        OFF and Exclusive Promo Codes on All Online Food Orders.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--Section-3:Explore menu-->
+    <section class="py-10">
+        <div class="w-[90%] mx-auto grid grid-cols-1">
+            <div class="py-5">
+                <h2 class="font-[Poppins] text-[28px] leading-[34px] text-black font-bold">Explore Menu</h2>
+
+            </div>
+
+        </div>
+        <div class="2xl:container mx-auto">
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 ld:grid-cols-4 gap-4">
+                <!--Cards-->
+                <div class="bg-white-shadow-xl p-5 rounded-2xl">
+                    <div class="mx-auto flex flex-col justify-center items-center">
+                        <img src="https://ik.imagekit.io/jn6tbw6g3m/em-ginger-fried-img.webp" alt="menu-card-images" class="rounded-2xl h-64">
+                    </div>
+                    <div class="px-2 py-3 space-y-2">
+                        <p class=" text-[18px] leading-[22px] text-[#323f4b] font-medium">Non-veg Starters
+                        </p>
+                        <p
+                            class=" flex flex-row items-center gap-1 hover:underline hover:text-blue-500  text-[14px] leading-[21px] ">
+                            View All
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em"
+                                {...props}>
+                                <path fill="currentColor"
+                                    d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42s1.02.39 1.41 0l6.59-6.59a.996.996 0 0 0 0-1.41l-6.58-6.6a.996.996 0 1 0-1.41 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1">
+                                </path>
+                            </svg>
+                        </p>
+                    </div>
+
+
+                </div>
+                <!--Cards-->
+                <div class="bg-white-shadow-xl p-4 rounded-2xl">
+                    <div class="mx-auto flex flex-col justify-center items-center">
+                        <img src="https://ik.imagekit.io/jn6tbw6g3m/em-veg-starters-img.webp" alt="menu-card-images" class="rounded-2xl h-54">
+                    </div>
+                    <div class="px-2 py-3 space-y-2">
+                        <p class="font-[Poppins] text-[18px] leading-[22px] text-[#323f4b] font-medium">Non-veg Starters
+                        </p>
+                        <p
+                            class=" flex flex-row items-center gap-1 hover:underline hover:text-blue-500 font-[Poppins] text-[14px] leading-[21px] ">
+                            View All
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em"
+                                {...props}>
+                                <path fill="currentColor"
+                                    d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42s1.02.39 1.41 0l6.59-6.59a.996.996 0 0 0 0-1.41l-6.58-6.6a.996.996 0 1 0-1.41 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1">
+                                </path>
+                            </svg>
+                        </p>
+                    </div>
+
+
+                </div>
+                <!--Cards-->
+                <div class="bg-white-shadow-xl p-4 rounded-2xl">
+                    <div class="mx-auto flex flex-col justify-center items-center">
+                        <img src="https://ik.imagekit.io/jn6tbw6g3m/em-soup-img.webp" alt="menu-card-images" class="rounded-2xl h-54">
+                    </div>
+                    <div class="px-2 py-3 space-y-2">
+                        <p class="font-[Poppins] text-[18px] leading-[22px] text-[#323f4b] font-medium">Non-veg Starters
+                        </p>
+                        <p
+                            class=" flex flex-row items-center gap-1 hover:underline hover:text-blue-500 font-[Poppins] text-[14px] leading-[21px] ">
+                            View All
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em"
+                                {...props}>
+                                <path fill="currentColor"
+                                    d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42s1.02.39 1.41 0l6.59-6.59a.996.996 0 0 0 0-1.41l-6.58-6.6a.996.996 0 1 0-1.41 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1">
+                                </path>
+                            </svg>
+                        </p>
+                    </div>
+
+
+                </div>
+                <!--Cards-->
+                <div class="bg-white-shadow-xl p-4 rounded-2xl">
+                    <div class="mx-auto flex flex-col justify-center items-center">
+                        <img src="https://ik.imagekit.io/jn6tbw6g3m/em-grilled-seafood-img.webp" alt="menu-card-images" class="rounded-2xl h-54">
+                    </div>
+                    <div class="px-2 py-3 space-y-2">
+                        <p class="font-[Poppins] text-[18px] leading-[22px] text-[#323f4b] font-medium">Non-veg Starters
+                        </p>
+                        <p
+                            class=" flex flex-row items-center gap-1 hover:underline hover:text-blue-500 font-[Poppins] text-[14px] leading-[21px] ">
+                            View All
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em"
+                                {...props}>
+                                <path fill="currentColor"
+                                    d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42s1.02.39 1.41 0l6.59-6.59a.996.996 0 0 0 0-1.41l-6.58-6.6a.996.996 0 1 0-1.41 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1">
+                                </path>
+                            </svg>
+                        </p>
+                    </div>
+
+
+                </div>
+                <!--Cards-->
+                <div class="bg-white-shadow-xl p-4 rounded-2xl">
+                    <div class="mx-auto flex flex-col justify-center items-center">
+                        <img src="https://ik.imagekit.io/jn6tbw6g3m/em-hyderabadi-biryani-img.webp" alt="menu-card-images" class="rounded-2xl h-54">
+                    </div>
+                    <div class="px-2 py-3 space-y-2">
+                        <p class="font-[Poppins] text-[18px] leading-[22px] text-[#323f4b] font-medium">Non-veg Starters
+                        </p>
+                        <p
+                            class=" flex flex-row items-center gap-1 hover:underline hover:text-blue-500 font-[Poppins] text-[14px] leading-[21px] ">
+                            View All
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em"
+                                {...props}>
+                                <path fill="currentColor"
+                                    d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42s1.02.39 1.41 0l6.59-6.59a.996.996 0 0 0 0-1.41l-6.58-6.6a.996.996 0 1 0-1.41 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1">
+                                </path>
+                            </svg>
+                        </p>
+                    </div>
+
+
+                </div>
+                <!--Cards-->
+                <div class="bg-white-shadow-xl p-4 rounded-2xl">
+                    <div class="mx-auto flex flex-col justify-center items-center">
+                        <img src="https://ik.imagekit.io/jn6tbw6g3m/em-mushroom-noodles-img.webp" alt="menu-card-images" class="rounded-2xl h-54">
+                    </div>
+                    <div class="px-2 py-3 space-y-2">
+                        <p class="font-[Poppins] text-[18px] leading-[22px] text-[#323f4b] font-medium">Non-veg Starters
+                        </p>
+                        <p
+                            class=" flex flex-row items-center gap-1 hover:underline hover:text-blue-500 font-[Poppins] text-[14px] leading-[21px] ">
+                            View All
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em"
+                                {...props}>
+                                <path fill="currentColor"
+                                    d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42s1.02.39 1.41 0l6.59-6.59a.996.996 0 0 0 0-1.41l-6.58-6.6a.996.996 0 1 0-1.41 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1">
+                                </path>
+                            </svg>
+                        </p>
+                    </div>
+
+
+                </div>
+                <!--Cards-->
+                <div class="bg-white-shadow-xl p-4 rounded-2xl">
+                    <div class="mx-auto flex flex-col justify-center items-center">
+                        <img src="https://ik.imagekit.io/jn6tbw6g3m/em-gluten-img.webp" alt="menu-card-images" class="rounded-2xl h-54">
+                    </div>
+                    <div class="px-2 py-3 space-y-2">
+                        <p class="font-[Poppins] text-[18px] leading-[22px] text-[#323f4b] font-medium">Non-veg Starters
+                        </p>
+                        <p
+                            class=" flex flex-row items-center gap-1 hover:underline hover:text-blue-500 font-[Poppins] text-[14px] leading-[21px] ">
+                            View All
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em"
+                                {...props}>
+                                <path fill="currentColor"
+                                    d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42s1.02.39 1.41 0l6.59-6.59a.996.996 0 0 0 0-1.41l-6.58-6.6a.996.996 0 1 0-1.41 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1">
+                                </path>
+                            </svg>
+                        </p>
+                    </div>
+
+
+                </div>
+                <!--Cards-->
+                <div class="bg-white-shadow-xl p-4 rounded-2xl">
+                    <div class="mx-auto flex flex-col justify-center items-center">
+                        <img src="https://ik.imagekit.io/jn6tbw6g3m/em-coffee-bourbon-img.webp" alt="menu-card-images" class="rounded-2xl h-54">
+                    </div>
+                    <div class="px-2 py-3 space-y-2">
+                        <p class="font-[Poppins] text-[18px] leading-[22px] text-[#323f4b] font-medium">Non-veg Starters
+                        </p>
+                        <p
+                            class=" flex flex-row items-center gap-1 hover:underline hover:text-blue-500 font-[Poppins] text-[14px] leading-[21px] ">
+                            View All
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em"
+                                {...props}>
+                                <path fill="currentColor"
+                                    d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42s1.02.39 1.41 0l6.59-6.59a.996.996 0 0 0 0-1.41l-6.58-6.6a.996.996 0 1 0-1.41 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1">
+                                </path>
+                            </svg>
+                        </p>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>

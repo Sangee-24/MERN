@@ -1,0 +1,13 @@
+.bg-home-container{
+    background-image: url(https://ik.imagekit.io/jn6tbw6g3m/page1.webp);
+    width: 300px;
+    height: 600px;
+    background-size: cover;
+
+}
+.bg-fav-container{
+    background-image: url(https://ik.imagekit.io/jn6tbw6g3m/page2.webp);
+    width: 360px;
+    height: 540px;
+    background-size: cover;
+}
