@@ -1,0 +1,87 @@
+
+ WHAT IS HTML
+  Hyper text markup language
+
+
+💡 WHY HTML IS USED
+      To display the contents in web
+
+
+
+💡 What is Emmet & List 5 Emmet
+
+   to write html and css code faster using abbreviations.
+  examples: paragraph, button, a tag, heading tag, image tag
+
+
+💡 SHORT CUT CREATE of Emmet Boiler plate of HTML
+
+   html:5
+
+💡 WHAT STRUCTURE OF HTML
+
+    <html>
+    <head>
+    </head>
+    <body>
+    </body>
+    </html>
+
+💡 WHAT IS **HEAD** TAG
+
+    The <head> tag in HTML contains metadata and links to external resources like CSS, JavaScript, and fonts
+
+💡 WHAT IS BODY TAG
+
+  To dispaly the contents
+
+💡 IMPORTANT 3 ELEMENTS OR TAGS
+      <h1>....<h6>
+      <paragraph>
+      <button>
+
+
+💡 WHAT IS DIFFERENT B/W ELEMENTS & TAGS IN HTML
+    -element:h1,paragraph,button,a
+    -tag:<p></p>
+
+
+💡 WHAT IS CSS
+     Cascading Style Sheet
+
+💡 WHY IS CSS
+         
+      To design the web pages
+
+💡 HOW TO CONNECT HTML & CSS , Tell the emmet Shortcut
+             
+      link  tag
+
+
+💡 HOW TO GET FONT & COLOR , IMAGE, CDN
+          Font-family,colour,<img> tag,Get the image link from imagekit.io
+
+💡 BASIC CSS FAMILY : Text Family, Color & Background Family, Box Model
+       Text-family:text-align,text-decoration,text-transform,bg-colour,background-image
+       Box-model:Margin,padding,width,height,border
+
+
+💡 WHEN TO USE **BACKGROUND IMG** VS **IMG TAG**
+           Background img is used when we need an image as background picture
+           Img tag is used when we need to upload an image
+
+💡 WHAT IS LAYOUT & Explain About flexbox Properties
+    Layout refers to the arrangement of elements on a webpage to create a structured and visually appealing interface.
+    Flex-box properties:
+     1.Flex
+     2.Flex-(row or column)
+     3.justify-centre items-centre
+             or
+        items-centre justify-centre
+
+
+💡 WHAT IS TAILWIND CSS & WHY IS IT USED
+       It is an CSS framework and it used to minimize the CSS code with customized styling
+
+
+
