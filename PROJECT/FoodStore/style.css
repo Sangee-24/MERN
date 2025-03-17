@@ -1,6 +1,6 @@
 .bg-hero{
-    background-image: url();
-    height:600px;
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png);
+    height:700px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover
 }

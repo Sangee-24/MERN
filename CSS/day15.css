@@ -1,0 +1,77 @@
+*{
+    
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#3498db;
+    --secondary-color:#2ecc71;
+}
+.paragraph{
+    background-color:var(--primary-color);
+}
+.heading{
+    color: var(--secondary-color);
+}
+.box-1{
+    color:#2ecc71 ;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box-2{
+    color: #3498db;
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 200px;
+    box-sizing: content-box;
+}
+
+.box-2:hover{
+    background-color: blue;
+}
+#para{
+    color: aqua;
+    background-color: black;
+}
+p{
+    background-color: aqua;
+}
+.box-1{
+    background-color: bisque;
+}
+.rotate-center {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
+}
+
+ @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  .car{
+    color:#2ecc71
+  }
+  .car{
+    color:red
+  }
+  
